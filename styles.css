@@ -1,0 +1,282 @@
+html, body {
+    background: #2c2f33;
+    margin: 0;
+    padding: 0;
+}
+
+
+.stockbtn-color {
+    background: #63326E;
+
+}
+
+.stockhead-color {
+    color: #8DDCA4;
+
+}
+
+.stockcard-color {
+    background: #8DDCA4;
+
+}
+
+
+
+.cryptobtn-color {
+    background:  #F45B69;
+}
+
+.cryptohead-color {
+    color: #6184D8;
+}
+
+.cryptocard-color {
+    background: #6184D8;
+}
+
+
+.button-div {
+    padding: 20px;
+    max-width: 50px;
+}
+
+.toggle-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: all .3s;
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.toggle-button:hover {
+    transform: scale(1.2);
+}
+
+
+.main {
+    margin-top: 3%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around
+}
+
+.left {
+    max-width: 600px;
+}
+
+.title {
+   margin-top: 2px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   font-size: 70px;
+   color: #ffffff
+   
+}
+
+
+.desc {
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+
+}
+
+
+.stock-button {
+  margin-left: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px;
+  width: 160px;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
+
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+
+.stock-button:hover {
+    transform: scale(1.1);
+}
+
+
+.right {
+    margin-right: 100px;
+    
+}
+
+
+.card {
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+
+
+
+.stock {
+    margin-top: 125px;
+    flex-direction: column;
+
+
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stock-ticker {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #ffffff;
+
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+
+.price-info {
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.stock-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 25px;
+
+}
+
+
+.stock-price-change {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 25px;
+}
+
+.chart {
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+
+
+
+.footer  {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    bottom: 0px;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #63326E;
+}
+
+
+
+
+
+/* card animation */
+.fadingEffect {
+    position:absolute;
+    top:0; bottom:0; right:0;
+    width:100%;
+    background:white;
+    -moz-animation: showHide 5s ease-in alternate infinite; /* Firefox */
+    -webkit-animation: showHide 5s ease-in alternate infinite; /* Safari and Chrome */
+    -ms-animation: showHide 5s ease-in alternate infinite; /* IE10 */
+    -o-animation: showHide 5s ease-in alternate infinite; /* Opera */
+    animation: showHide 5s ease-in alternate infinite;
+}
+@-webkit-keyframes showHide { /* Chrome, Safari */
+    0% {width:100%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-moz-keyframes showHide { /* FF */
+    0% {width:100%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-ms-keyframes showHide { /* IE10 */
+    0% {width:100%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-o-keyframes showHide { /* Opera */
+    0% {width:100%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@keyframes showHide {
+    0% {width:100%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .desc {
+        font-size: 25px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+
+    .card {
+        margin-top: 50px;
+        height: 500;
+        width: 400px;
+    }
+
+}
+
+
+
+
+
+/* For crypto page */
+
+

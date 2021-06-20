@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
+    <title>Random Crypto!</title>
+</head>
+<body>
+    <div class="button-div">
+        <a href="index.html">
+            <button class="toggle-button stockbtn-color" id="toggle-page ">
+                Stocks
+            </button>
+        </a>
+       
+    </div>
+    <div class="main">
+        <div class="left">
+            <h1 class="title">Random Crypto</h1>
+            <h3 class="desc cryptohead-color">Find a random crypto with the push of a...</h3>
+            <input id="get-crypto" class="stock-button cryptobtn-color" type="button" value="Get Crypto">
+        </div>
+
+
+        <div class="right">
+            <div class="card w3-animate-right cryptocard-color"> 
+                    <div class="stock-ticker" id="crypto-ticker">BTC</div>
+                    <div class="price-info">
+                        <div class="stock-price" id="crypto-price">$ ----</div>
+                        <div class="stock-price-change" id="crypto-change">----%</div>
+                    </div>
+                    <canvas class="chart" id="cryptoChart"></canvas>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="footer"> © Created by Todd🔥
+    </div> -->
+    <script src="crypto.js"></script>
+</body>
+</html>
